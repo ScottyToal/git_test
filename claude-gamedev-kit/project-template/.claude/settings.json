@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./Library/**)",
+      "Read(./Temp/**)",
+      "Read(./obj/**)",
+      "Read(./Build/**)",
+      "Read(./Builds/**)",
+      "Read(./.godot/**)",
+      "Read(./.import/**)",
+      "Read(./Intermediate/**)",
+      "Read(./DerivedDataCache/**)",
+      "Read(./Binaries/**)",
+      "Read(./Saved/Autosaves/**)",
+      "Read(./Saved/Cooked/**)",
+      "Read(./**/*.blend)",
+      "Read(./**/*.blend1)",
+      "Read(./**/*.fbx)",
+      "Read(./**/*.psd)",
+      "Read(./**/*.exr)",
+      "Read(./**/*.tga)",
+      "Read(./**/*.wav)",
+      "Read(./**/*.ogg)",
+      "Read(./**/*.mp3)",
+      "Read(./**/*.uasset)",
+      "Read(./**/*.umap)",
+      "Read(./**/*.dll)",
+      "Read(./**/*.so)"
+    ],
+    "allow": [
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(blender --background:*)",
+      "Bash(blender -b:*)",
+      "Bash(ffprobe:*)",
+      "Bash(identify:*)"
+    ]
+  }
+}
